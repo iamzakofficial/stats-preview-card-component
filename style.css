@@ -1,0 +1,123 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Body */
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  overflow-x: hidden;
+  font-family: 'Inter', 'Lexend Deca';
+  color: #fff;
+  text-align: center;
+}
+
+/* Main Heading */
+
+h1 {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem .2rem 0 .2rem;
+}
+
+h1 span {
+  color: #A564D2;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.65);
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+/* Paragraph */
+
+.paragraph {
+  padding: 1rem 4rem;
+  line-height: 1.5;
+  margin: 0 ;
+  text-transform: none;
+}
+
+/* Main Card */
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  width: 80%;
+  border-radius: 12px;
+  margin: 5rem auto;
+  padding-bottom: 3rem;
+}
+
+/* Image Container Div */
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px 12px 0 0;
+  background: hsl(244, 49%, 33%);
+  mix-blend-mode: normal;
+}
+
+/* Image Div */
+
+.image-header {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  opacity: .4;
+  display: block;
+}
+
+
+@media (min-width: 1168px) {
+
+  h1 {
+    text-align: left;
+  }
+
+  .paragraph {
+    text-align: left;
+    padding-left: 3.4rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+  }
+
+  .image-container {
+    border-radius: 0 12px 12px 0;
+  }
+
+  .image-header {
+    border-radius: 0 12px 12px 0;
+  }
+
+  .stat {
+    float: left;
+    text-align: center;
+    margin: 0 1rem 0 2rem;
+  }
+}
+
+@media (min-width:1492px) {
+
+  .content {
+    margin-top: 4.3rem;
+  }
+
+  .stat {
+    float: left;
+    margin: 0 1rem 0 3rem;
+  }
+}
